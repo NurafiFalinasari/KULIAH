@@ -1,7 +1,7 @@
 void main() {
   String nama = 'Nurafi Falinasari';
   int jamKerja = 40;
-  double upahPerJam = 25000.0;
+  double upahPerJam = 200000.0;
   bool statusTetap = true;
 
   double gajiKotor = jamKerja * upahPerJam;
@@ -11,8 +11,7 @@ void main() {
   double pajak = gajiKotor * persenPajak;
   double gajiBersih = gajiKotor - pajak;
 
-  // Menampilkan hasil
-  print('       DATA GAJI KARYAWAN');
+  print('DATA GAJI KARYAWAN');
   print('Nama           : $nama');
   print('Status         : ${statusTetap ? 'Tetap' : 'Kontrak'}');
   print('Jam Kerja      : $jamKerja jam/minggu');

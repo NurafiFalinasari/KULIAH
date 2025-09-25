@@ -26,7 +26,7 @@ double modulus(double a, double b) {
 double pangkat(double a, double b) => pow(a, b).toDouble();
 
 void kalkulator() {
-  print('\n Kalkulator Aritmetika Lengkap ');
+  print('\n Aplikasi Kalkulator ');
   print('1. Penjumlahan (+)');
   print('2. Pengurangan (-)');
   print('3. Perkalian (*)');
